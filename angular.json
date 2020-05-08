@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "guestbook"
+    }
+  },
+  "defaultProject": "guestbook",
+  "cli": {
+    "analytics": "55837319-1b80-4529-a4e3-05a55e83d189"
+  }
 }
