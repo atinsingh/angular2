@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="m-2" *ngFor="let book of books">
+          <app-bookoverview [book]="book"></app-bookoverview>
+        </div>
+      </div>
+      <div class="col-8">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+</div>
